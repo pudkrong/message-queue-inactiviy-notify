@@ -6,7 +6,7 @@ This project is to serve the need to have a system that runs a specific job when
 ## Prerequisition
 - Redis
   ```
-  $ docker exec -d --name redis -p 6379:6379 redis:6
+  $ docker run -d --name redis -p 6379:6379 redis:6
   ```
 - KubeMQ (Message Queue)
   ```
